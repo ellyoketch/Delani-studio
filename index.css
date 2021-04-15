@@ -1,5 +1,7 @@
 .about-us{
     text-align:center;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .welcome{
@@ -25,4 +27,13 @@
 }
 #mouse{
     padding-bottom: 30px;
+}
+.what-we-do{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#product{
+    padding-right: 200px;
+    float: right;
 }
