@@ -1,3 +1,28 @@
 .about-us{
     text-align:center;
 }
+
+.welcome{
+    text-align:center;
+    float: top;
+    color: white;
+    background-image: url(./assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services{
+    background-image: url(./assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+
+#bottom{
+    padding-bottom: 100px;
+}
+#mouse{
+    padding-bottom: 30px;
+}
