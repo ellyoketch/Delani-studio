@@ -21,9 +21,13 @@
     text-align: center;
     padding-top: 90px;
 }
+#one{
+    float: left;
+    padding-top:80px;
+}
 
 #bottom{
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 #mouse{
     padding-bottom: 30px;
@@ -31,9 +35,8 @@
 .what-we-do{
     text-align: center;
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 0px;
 }
-#product{
-    padding-right: 200px;
-    float: right;
+.product{
+    display: inline;
 }
