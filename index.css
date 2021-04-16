@@ -37,6 +37,8 @@
     padding-top: 90px;
     padding-bottom: 0px;
 }
-.product{
-    display: inline;
+.product > p{
+    display: inline-block;
+
+    
 }
