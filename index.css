@@ -39,6 +39,21 @@
 }
 .product > p{
     display: inline-block;
+    padding-bottom: 90px;
 
     
+}
+
+.portfolio > img{
+    align-items: center;
+    margin-left: 15px;
+    margin-right: auto;
+    width: 20%;
+    padding-bottom: 30px;
+
+}
+.portfolio{
+    text-align: center;
+    padding-left: 40px;
+    margin-bottom: 30px;
 }
