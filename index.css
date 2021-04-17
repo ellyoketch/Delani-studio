@@ -43,7 +43,10 @@
     padding-top: 90px;
     padding-bottom: 0px;
 }
-.product > p{
+.whats-we-do >img{
+    position: absolute;
+}
+.Elly > p{
     font-family: Copse;
     display: inline-block;
     padding-bottom: 90px;
@@ -109,6 +112,13 @@ button{
 .footer > h3{
     padding-bottom: 30px;
 }
+.design, .development, .product{
+    display: none;
+    font-size: 13px;
+    font-family: Copse;
+    position: absolute;
+
+}
 #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     display: none;
     color: black;
@@ -146,7 +156,7 @@ input[type=text],input[type=email],#textarea{
     font-family: 'Copse', serif;
   }
   :-ms-input-placeholder{
-      color: rgb(194, 20, 20);
+      color: #ebdbdb;
   }
   
 

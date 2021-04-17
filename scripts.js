@@ -15,6 +15,8 @@ $(document).ready(function(){
 
   });
 
+  /* overlay effect on the portfolio image*/
+
   $(document).ready(function(){
     $("#work1").mouseover(function(){
       $("#overlay1").show();
@@ -76,3 +78,4 @@ $(document).ready(function(){
     });
 
 
+/*toggle effect*/
