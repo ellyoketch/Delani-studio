@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    $("input-form").submit(function(event){
+    $("#input-form").submit(function(event){
       let name = $("input#name").val();
       let email = $("input#email").val();
       let comment = $("textarea#textarea").val();
@@ -12,6 +12,7 @@ $(document).ready(function(){
       }
     
     });
+
   });
 
   $(document).ready(function(){
@@ -48,19 +49,28 @@ $(document).ready(function(){
     }).mouseout(function(){
       $("#overlay5").hide();
     });
-    $("#work6").mouseover(function(){
-      $("#overlay6").show();
-    }).mouseout(function(){
-      $("#overlay6").hide();
+});
+    $(document).ready(function(){
+        $("#work6").mouseover(function(){
+            $("#overlay6").show();
+          }).mouseout(function(){
+            $("#overlay6").hide();
+          });
     });
-    $("#work7").mouseover(function(){
-      $("#overlay7").show();
-    }).mouseout(function(){
-      $("#overlay7").hide();
+
+    $(document).ready(function(){
+        $("#work7").mouseover(function(){
+            $("#overlay7").show();
+          }).mouseout(function(){
+            $("#overlay7").hide();
+          });
     });
-    $("#work8").mouseover(function(){
-      $("#overlay8").show();
-    }).mouseout(function(){
-      $("#overlay8").hide();
+
+    $(document).ready(function(){
+        $("#work8").mouseover(function(){
+            $("#overlay8").show();
+          }).mouseout(function(){
+            $("#overlay8").hide();
+          });
+      
     });
-  });
