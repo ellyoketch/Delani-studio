@@ -82,3 +82,49 @@ $(document).ready(function(){
 
 
 /*toggle effect*/
+$(document).ready(function(){
+  $("#image1").click(function(){
+    $("#image1").slideDown('1500').hide('1000');
+    $("#two").show('1500');
+  });
+  $("#two").click(function(){
+    $("#two").slideUp('1500').hide('1000');
+    $("#image1").slideDown('1500');
+  });
+});
+
+
+$(document).ready(function(){
+  $("#image1").click(function(){
+    $("#image1").hide('1000');
+    $("#two").show('2500');
+  });
+});
+
+$(document).ready(function(){
+  $("#image3").click(function(){
+    $("#image3").slideDown('1000').hide(1000);
+    $("#three").show('2500');
+    $("#three").click(function(){
+      $("#three").hide(1000);
+      $("#image3").show(1000);
+    });
+  });
+});
+
+$(document).ready(function(){
+  $("#image2").click(function(){
+    $("#image2").slideDown('1000').hide(1000);
+    $("#one").show('2500');
+    $("#one").click(function(){
+      $("#one").hide(1000);
+      $("#image2").show(1000);
+    });
+  });
+});
+
+
+
+
+
+

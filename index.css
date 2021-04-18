@@ -113,11 +113,12 @@ button{
 .footer > h3{
     padding-bottom: 30px;
 }
-.design, .development, .product{
+#one, #two, #three{
     display: none;
     font-size: 13px;
     font-family: Copse;
-    position: absolute;
+    text-align: center;
+
 
 }
 #overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
